@@ -1,0 +1,15 @@
+<?php
+/**
+ * Description:
+ * Author: DexterHo <dexter.ho.cn@gmail.com>
+ * Date: 2020/4/19
+ * Time: 1:54
+ * Created by PhpStorm.
+ */
+
+namespace Factory;
+
+interface PhoneApi
+{
+    public function createPhone();
+}
