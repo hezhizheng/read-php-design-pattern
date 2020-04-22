@@ -12,6 +12,6 @@ namespace Adapter;
 interface DBLogApi
 {
     // todo $logData 可以当作类来实现
-    public function saveRedisLog(array $logData = []);
-    public function saveMysqlLog(array $logData = []);
+    public function saveRedisLog(Logger $logger);
+    public function saveMysqlLog(Logger $logger);
 }

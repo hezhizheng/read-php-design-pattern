@@ -13,6 +13,8 @@ require_once(dirname(__DIR__) . '/autoload.php');
 
 
 use \Adapter\LogAction;
+use \Adapter\Logger;
+use \Adapter\LogAdapter;
 
 // 保存 log 到 Mysql or redis
 
@@ -23,5 +25,11 @@ $logData = [
 
 $action = new LogAction();
 
-$action->saveLog('redis', $logData);
-$action->saveLog('mysql', $logData);
+$logger = new Logger();
+
+$logger->user_name = 'kui';
+$logger->action_type = 'update';
+
+$action->saveLog(LogAdapter::REDIS_ADAPTER, $logger);
+
+$action->saveLog(LogAdapter::MYSQL_ADAPTER, $logger);

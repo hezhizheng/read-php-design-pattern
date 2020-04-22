@@ -11,15 +11,15 @@ namespace Adapter;
 
 class MysqlLog implements DBLogApi
 {
-    public function saveRedisLog(array $logData = [])
+    public function saveRedisLog(Logger $logger)
     {
         // TODO: Implement saveRedisLog() method.
     }
 
-    public function saveMysqlLog(array $logData = [])
+    public function saveMysqlLog(Logger $logger)
     {
         // TODO: Implement saveMysqlLog() method.
         echo "save mysql log" . PHP_EOL;
-        var_dump($logData);
+        var_dump($logger);
     }
 }

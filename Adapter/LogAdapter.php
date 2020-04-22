@@ -11,6 +11,9 @@ namespace Adapter;
 
 class LogAdapter
 {
+    const MYSQL_ADAPTER = 'mysql';
+    const REDIS_ADAPTER = 'redis';
+
     protected $type;
     protected $adapter;
 
@@ -31,9 +34,9 @@ class LogAdapter
         $this->type = $type;
     }
 
-    public function saveLog(array $logData)
+    public function saveLog(Logger $logger)
     {
-        return $this->adapter->{$this->map[$this->type]['funcName']}($logData);
+        return $this->adapter->{$this->map[$this->type]['funcName']}($logger);
     }
 
 

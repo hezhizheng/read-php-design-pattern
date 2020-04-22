@@ -11,5 +11,5 @@ namespace Adapter;
 
 interface LogApi
 {
-    public function saveLog($type,array $logData = []);
+    public function saveLog($type ,Logger $logger);
 }

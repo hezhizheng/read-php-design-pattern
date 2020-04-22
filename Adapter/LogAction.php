@@ -11,9 +11,9 @@ namespace Adapter;
 
 class LogAction implements LogApi
 {
-    public function saveLog($type, array $logData = [])
+    public function saveLog($type, Logger $logger)
     {
         $log = new LogAdapter($type);
-        return $log->saveLog($logData);
+        return $log->saveLog($logger);
     }
 }
