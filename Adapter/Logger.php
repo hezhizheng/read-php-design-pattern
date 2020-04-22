@@ -16,14 +16,4 @@ class Logger
     {
         $this->$name;
     }
-
-//    public function getUserName()
-//    {
-//        $this->
-//    }
-//
-//    public function getActionType()
-//    {
-//
-//    }
 }
