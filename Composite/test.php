@@ -26,5 +26,5 @@ $root->add($usr);
 $root->add($mnt);
 $usr->add($testFile); // usr目录下加一个test.php的文件
 
-// 打印根目录文件夹节点
+// todo:hzz wait test  打印根目录文件夹节点
 $root->printComposite();
