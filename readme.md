@@ -2,6 +2,7 @@
 - 参考
   - [DesignPattern](https://github.com/hoohack)
   - [http://easy-tips.tigerb.cn/](http://easy-tips.tigerb.cn/)
+  - [https://xueyuanjun.com/books/php-design-pattern](https://xueyuanjun.com/books/php-design-pattern)
 
 - 慢啃 -> 读懂理解 -> 动手敲代码 -> 回顾
 
@@ -71,8 +72,8 @@
       - [x] [责任链模式]
       - [x] [访问者模式]
       - [x] [解释器模式]
-      - [ ][备忘录模式]
-      - [命令模式]
-      - [迭代器模式]
+      - [ ] [备忘录模式]
+      - [x] [命令模式]
+      - [ ][迭代器模式]
       - [中介者器模式]
       - [空对象模式]
