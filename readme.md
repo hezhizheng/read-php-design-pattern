@@ -1,5 +1,5 @@
 # PHP设计模式笔记
-- 参考
+- 该仓库为个人笔记，建议阅读以下原文
   - [DesignPattern](https://github.com/hoohack)
   - [http://easy-tips.tigerb.cn/](http://easy-tips.tigerb.cn/)
   - [https://xueyuanjun.com/books/php-design-pattern](https://xueyuanjun.com/books/php-design-pattern)
@@ -44,7 +44,7 @@
 
 ###### 接口与抽象类
 - 抽象用于不同的事物，而接口用于事物的行为。
-- 如：人类是男人与女人的抽象类，男人、女人的吃饭、喝水等动作是他们的行为
+- 如：动物是猫与狗的抽象类，猫、狗吃东西、喝水等动作是他们的行为
 
 ## 模式划分
 
